@@ -1,0 +1,14 @@
+:root{
+    --lightbg-color: #FFF;
+    --lighttxtcolor: #000;
+    --darkbg-color: #000;
+    --darktxtcolor: #FFF;
+}
+
+body{
+    text-align: center;
+    background-color: var(--lightbg-color);
+    color: var(--lighttxtcolor);
+
+    transition: all 0.8s ease;
+}
