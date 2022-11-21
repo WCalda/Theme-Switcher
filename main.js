@@ -23,6 +23,6 @@
 document.getElementById('switcher').addEventListener('click', (param1) => {
     let isDark = param1.target.value === "Off";
   
-    document.body.classList.toggle('dark', isDark);
+    document.body.classList.toggle('dark');
     param1.target.value = isDark ? "On" : "Off";
   })
