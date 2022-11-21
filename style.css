@@ -19,10 +19,3 @@ body{
     border-radius: 0.5rem;
     box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.650);
 }
-
-#switcher:hover{
-    transition: all 0.5s ease-in-out;
-    background-color: var(--darkbg-color);
-    color: var(--darktxtcolor);
-    cursor: pointer;
-}
